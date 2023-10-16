@@ -1,3 +1,6 @@
+import Escalutin from '../../../../Component/Escalutin/Escalutin';
+import LottieAbout from '../../../../Component/LottieAbout/LottieAbout';
+import SellsAndReviews from '../../../../Component/SellsAndReviews/SellsAndReviews';
 import useTitlt from '../../../../Hook/useHook';
 import Bannerr from '../../../Bannerr/Bannerr';
 import BestSelling from '../../../BestSelling/BestSelling';
@@ -26,6 +29,9 @@ const Home = () => {
     <div className='mt-28 mb-28'>
       <BestSelling />
     </div>
+    <LottieAbout />
+    <Escalutin />
+    <SellsAndReviews />
     <Supporting />
     <HappyCoustomer />
     {/* <Contact /> */}
