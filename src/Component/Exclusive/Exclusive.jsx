@@ -5,15 +5,15 @@ const Exclusive = () => {
   return (
     <div>
       <Title text="Exclusive Item" />
-      <div className="flex justify-center items-center">
+      <div className="md:flex justify-center items-center">
         <div>
-          <img className="h-[640px]" src={bus} alt="" />
+          <img className="md:h-[640px]" src={bus} alt="" />
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="mb-2 text-4xl font-bold text-yellow-500">
             Yellow Fire Truck
           </p>
-          <p className="text-xl leading-9 w-4/5">
+          <p className="text-xl leading-9 md:w-4/5">
             A yellow fire truck toy is a small, plastic replica of a fire
             engine, often with rolling wheels and realistic details like a cab,
             ladder, and hose. It`s designed for children aged 3 and up, and some

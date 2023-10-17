@@ -10,8 +10,8 @@ const CallSupport = () => {
     <div className="mb-10">
       <Title text="Our Support" />
       <div className="support-background bg-fixed py-20 flex gap-56 justify-center items-center">
-        <div className="text-white font-semibold flex flex-col gap-8 text-2xl">
-          <p className="flex gap-2 items-center">
+        <div className="text-white font-semibold flex flex-col gap-8 md:text-2xl">
+          <p className="md:flex gap-2 items-center">
             <span className="text-white">
               <FaLocationDot size={20} />
             </span>{" "}
@@ -36,7 +36,7 @@ const CallSupport = () => {
             <span>Mon - Fri 8.00 Am to 6.00 Pm</span>
           </p>
         </div>
-        <div className="w-1/4 bg-white rounded-lg">
+        <div className="md:w-1/4 bg-white rounded-lg">
           <form className="card-body">
             <div className="form-control">
               <label className="label">
