@@ -1,4 +1,6 @@
+import CallSupport from '../../../../Component/CallSupport/CallSupport';
 import Escalutin from '../../../../Component/Escalutin/Escalutin';
+import Exclusive from '../../../../Component/Exclusive/Exclusive';
 import LottieAbout from '../../../../Component/LottieAbout/LottieAbout';
 import SellsAndReviews from '../../../../Component/SellsAndReviews/SellsAndReviews';
 import useTitlt from '../../../../Hook/useHook';
@@ -33,6 +35,8 @@ const Home = () => {
     <Escalutin />
     <SellsAndReviews />
     <Supporting />
+    <Exclusive />
+    <CallSupport />
     <HappyCoustomer />
     {/* <Contact /> */}
     </>
